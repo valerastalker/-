@@ -1,0 +1,13 @@
+hour = 8
+minut = 30
+lesson = 1
+turm = 0
+input ( " нажмите ENTER чтобы сделать что бы начать перемену и урок " )
+ lesson = lesson + 1  
+ minut = minut + 45
+ turm = lesson - 1 * 10 .
+ minut + turm
+  if minut2 ==< 60
+    hour = hour + 1
+    minit2 = minut2 - 60 = minut 
+print ( hour ': ' minut , lesson ' урок ' , turm ' пройденых перемен '  )
