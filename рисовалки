@@ -1,0 +1,12 @@
+import turtle
+from typing import Counter
+turtle.speed(1)
+turtle.shape('turtls')
+
+Counter=0
+hile counter < 4
+ turtle.fd(100)
+ turtle.left(90)
+ counter += 1
+ 
+ turtle.done
