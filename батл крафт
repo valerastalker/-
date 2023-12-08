@@ -1,0 +1,24 @@
+def change_hp
+    return 200
+
+    change_hp
+
+player_neme = " вася питонов "
+player_hp = 100
+player_ataks = 10
+player_level = 1
+player_money = 0
+player_xp = 0
+
+enemy_neme = " жран кривой "
+enemy_hp = 100
+enemy_ataks = 10
+enemy_level = 1
+enemy_money = 0
+enemy_xp = 0
+
+while player_hp > 0 a enemy enemy_hp
+  os.sistem('cls')
+  show_hero(player_neme , player_hp ,player_money , player_xp , player_level )
+  print ( "--- прготив ---")
+show_hero(enemy_neme enemy_hp ,enemy_money , enemy_xp )
