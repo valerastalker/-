@@ -1,0 +1,27 @@
+def get_hero(
+        name=None
+        hp=100
+        level=1
+        xp=0
+        money=25
+        inventory=('какая-то штука')
+) -> list
+if not Name :
+    names = ('роман','валера ' , ' мао ')
+    name = choice (names)
+if not inventory:
+    inventory = ()
+return ( name , hp , level , xp , money , inventory)
+
+def get_hero(hero : list ) ->None
+    print('здоровье',hero(1))
+    print('уровень',hero(2))
+    print('опыт',hero(3))
+    print('деньги',hero(4))
+    print('инвертарь',hero(5))
+    print('имя',hero(0))
+    option = input ('введи номер опции:')
+    if option= '1':
+       for num , iten in enumerate ( shop_items, 1):
+           print(f'(num) - ( item)')
+     option = input ('введите номер товара чтоб его купить')
