@@ -1,0 +1,14 @@
+from string import printable
+
+
+def encryt_message(message: str, shift: int) -> str:
+    alphabet = 'абвгдеёжзийклмнопрстуфхцшщъыьэюя'
+    alphabet +=alphabet.upper()
+    alphabet += printable
+    for char in message:
+       indenx = alphabet.find(char)
+       encryt_message += alphabet[indenx + shift]
+    return encryt_message
+
+encryt_message('Вася', 1)
+
