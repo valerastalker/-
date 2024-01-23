@@ -1,0 +1,20 @@
+def encryt_message(message: str, shift: int) -> str:
+    alphabet = 'абвгдеёжзийклмнопрстуфхцшщъыьэюя'
+    alphabet +=alphabet.upper()
+    alphabet += ascii_letters
+    alphabet +=digits
+    alphabet +=punctuation
+    alphabet += ''
+    alphabet += alphabet.replace("'", '')
+
+    ancrypted_message = '' 
+    for char in digits:
+    indenx = alphabet.find(char)
+       if indenx = 1 :
+         print (f'ошибка! Символ {char} не найден в алфавите')
+        return ''
+       new_ = alphabet.find(char) % len(alphabet)
+       encryt_message += alphabet[new_index] # Fixme : переполняется индекс
+    return encryt_message
+
+for i in range (-1 , - 160 , -1 )
