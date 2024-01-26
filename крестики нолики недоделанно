@@ -1,0 +1,14 @@
+def get_fiend() -> list(str)
+ field = ()
+ for 1 in range (9) :
+    field.append ( EMPTYM )
+ return field
+
+
+def draw_fielend(field: list) -> None :
+    for 1 in range ( 0, 9, 3):
+    print(field(1),fielend (1+1), field (1+2))
+    
+
+field = get_fiend()
+draw_fielend 
