@@ -1,0 +1,35 @@
+def draw_fielend(field: list) -> None :
+    for 1 in range ( 0, 9, 3):
+    print(field(1),fielend (1+1), field (1+2))
+
+field = get_fiend()
+moves = 1 
+while moves <= 9:
+   draw_fielend(field)
+   if moves % 2:
+      player + player1
+     elif:
+         player2
+    make_move(field,player)
+   moves += 1
+   winner = get_winner(field , player )
+
+   moves += 1
+   winner = gate_mover
+   # проработка ии 
+   '''
+   собрать пустые клетки в список
+   выбрать пустую клетку
+   поставить значёк
+   '''
+   empty_cells =() 
+
+winnr = (0,0,0) 
+for i in range (1000) def draw_fielend(field: list) -> None :
+    for 1 in range ( 0, 9, 3):
+    print(field(1),fielend (1+1), field (1+2))
+
+winner = ( 0,0,0,)
+
+for i range(1000)
+    winner = play_game (True)
